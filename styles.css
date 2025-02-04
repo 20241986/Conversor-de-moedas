@@ -1,0 +1,173 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+body {
+    background-color: #8A51FC;
+    cursor: pointer;
+}
+
+.converter {
+    background: #E5E5E5;
+    width: 375px;
+    margin: 0 auto 40px;
+    border-radius: 20px;
+    padding: 44px 24px 23px;
+
+}
+
+
+.mão-logo{
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+.button-Roxo {
+    width: 100%;
+    height: 48px;
+    background: #772FD3;
+    border-radius: 5px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    align-items: center;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.valor {
+
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    border: 1px solid #772FD3;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    color: #2e2c2c;
+    padding-left: 18px;
+}
+
+.MoedadeOrigem {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    border: 1px solid #772FD3;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    color: #2e2c2c;
+    appearance: none;
+    padding-left: 18px;
+
+}
+
+.MoedaDestino {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    border: 1px solid #772FD3;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    color: #2e2c2c;
+    appearance: none;
+    padding-left: 18px;
+}
+
+
+
+label {
+    width: 100%;
+    height: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    color: #772FD3;
+}
+
+.seta {
+    margin: 15px 0;
+
+}
+
+.brasil {
+    width: 44px;
+    height: 44px;
+    left: 163px;
+    top: 385px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.eua {
+    width: 44px;
+    height: 44px;
+    left: 164px;
+    top: 567px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box {
+    box-sizing: border-box;
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    padding: 12px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.moedaReal {
+    color: #777777;
+    font-size: 18px;
+
+}
+
+.moedaConvertida{
+    color: #777777;
+    font-size: 18px;
+}
+
+.moedaRealvalor{
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.moedaconvertidavalor {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}

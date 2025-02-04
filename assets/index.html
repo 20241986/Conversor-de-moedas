@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Conversor de Moedas</title>
+    <img src="./assets/gif.gif" alt="mão-logo" class=" mão-logo">
+
+</head>
+
+<body>
+
+    <main class="converter">
+
+
+        <label>
+            Valor
+            <input class="valor" placeholder="Digite o valor">
+        </label>
+
+        <label>
+            Converter de:
+            <select class="MoedadeOrigem">
+                <option value="BR">Real Brasileiro(BRL)</option>
+            </select>
+        </label>
+
+        <label>
+            Converter para:
+            <select class="MoedaDestino">
+                <option value="US$">Dólar Americano (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="BTC"> Bitcoin(BTC)</option>
+                <option value="BRL">Real brasileiro(BRL)</option>
+            </select>
+        </label>
+
+        <button class="button-Roxo">Converter</button>
+
+        <div class="box">
+
+            <img src="./assets/brasil 2.png" alt="brasil-logo" class="brasil">
+            <p class="moedaReal">Real</p>
+            <p class="moedaRealvalor">R$ 0.00</p>
+            <img src="./assets/seta.png" alt="seta-logo" class="seta">
+            <img src="./assets/estados-unidos (1) 1.png" alt="eua-logo" class="eua">
+            <p class="moedaConvertida">Dólar americano </p>
+            <p class="moedaconvertidavalor">US$ 0.00</p>
+
+        </div>
+
+    </main>
+
+</body>
+
+<script src="./script.js"></script>
+
+
+</html>
